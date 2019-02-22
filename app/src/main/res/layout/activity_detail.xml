@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TableLayout
+                android:id="@+id/tableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                android:layout_margin="10dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp">
+
+
+                <TableRow>
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_column="0"
+                        android:text="@string/txt_author"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:text=" : "
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <TextView
+                        android:id="@+id/txtAuthorr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="3"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#000000" />
+                </TableRow>
+
+                <TableRow>
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_column="0"
+                        android:text="@string/txt_title"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:text=" : "
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <TextView
+                        android:id="@+id/txtTitlee"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="3"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#000000" />
+                </TableRow>
+
+                <TableRow>
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_column="0"
+                        android:text="@string/txt_desc"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:text=" : "
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <TextView
+                        android:id="@+id/txtDescc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="3"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#000000" />
+
+
+                </TableRow>
+
+
+                <TableRow>
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_column="0"
+                        android:text="@string/txt_pubDate"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:text=" : "
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <TextView
+                        android:id="@+id/txtPubDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="3"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#000000" />
+
+
+                </TableRow>
+
+                <TableRow>
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_column="0"
+                        android:text="@string/txt_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:text=" : "
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <TextView
+                        android:id="@+id/txtContentt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="3"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#000000" />
+
+
+                </TableRow>
+
+            </TableLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

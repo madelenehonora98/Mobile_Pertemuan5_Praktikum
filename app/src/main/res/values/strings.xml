@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Pertemuan5_Praktikum</string>
+    <string name="search">Search</string>
+    <string name="txt_name">Name</string>
+    <string name="txt_title">Title</string>
+    <string name="txt_desc">Description</string>
+    <string name="txt_pubDate">Publish Date</string>
+    <string name="txt_content">Content</string>
+    <string name="txt_author">Author</string>
+    <string name="parcel_article" translatable="false">PCR_ART</string>
+</resources>
